@@ -14,10 +14,22 @@ const App = () => {
     },
     {
       date: new Date(2023, 0, 5),
-      title:'Ice cream',
-      price: 3.99
-    }
+      title:'New jeans',
+      price: 99.99
+    },
+      {
+          date: new Date(2023, 0, 5),
+          title:'New bag',
+          price: 199.99
+      }
   ]
+
+const App = () => {
+    const addExpenseHandler = (expense) => {
+      console.log('In App.js')
+      console.log(expense)
+    }
+}
 
   const addExpensehandler = (expense) => {
     console.log('In App.js')
